@@ -1,3 +1,12 @@
+main,
+header,
+footer {
+    background-color: rgb(231, 205, 205);
+    margin-bottom: 1rem;
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
 body {
     background-color: rgb(231, 205, 205);
 }

@@ -2,18 +2,29 @@ h1 {
     text-align: left;
     color: red;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    text-align: center;
 }
 
 
+ @media (min-width: 400px) {
+    header ul {
+        display: flex;
+        padding: 10px 10px;
+        text-decoration: none;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        justify-content: flex-end;
+        list-style: none;
+        position: relative;
+        gap: 1em;
+    } 
 
+    header * {
+        color: red;
+        text-decoration: none;
+        font-size: small;
+        margin-left: 0%;
+    }
 
-@media (min-width: 600px) {
-    
-
-}
-
-
-
-@media (max-width: 550px) {
-  
-}
+} 
