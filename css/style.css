@@ -1,6 +1,6 @@
 h1 {
     text-align: center;
-    color: red;
+    color: rgb(255, 145, 10);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-bottom: 30px;
     padding-top: 10%;
@@ -35,9 +35,33 @@ h4 {
     padding-top: 2%;
 }
 
+header ul {
+    display: flex;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    justify-content: flex-end;
+    list-style: none;
+    position: relative;
+    gap: 1em;
+} 
+
+header * {
+    color: red;
+    text-decoration: none;
+    font-size: medium;
+    margin-left: 0%;
+}
+
+.grid_1-1-1-1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 1em;
+    margin-top: 20%;
+}
 
 
- @media (min-width: 400px) {
+ @media (min-width: 600px) {
     header ul {
         display: flex;
         padding: 10px 10px;
@@ -56,21 +80,19 @@ h4 {
         margin-left: 0%;
     }
 
-    .col {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-        gap: 2em;
-        /* width: 1100px;
-        height: 300px; */
-        position: relative;
-        justify-content: center;
-        gap: 1em;
-    }
-
     .grid_1-1 {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 1em;
     }
+
+    p {
+        margin-top: 110px;
+        padding-right: 45px;
+    }
+
+    
+
+    
 
 } 

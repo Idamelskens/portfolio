@@ -1,19 +1,25 @@
 main,
 header,
 footer {
-    background-color: rgb(231, 205, 205);
     margin-bottom: 1rem;
     max-width: 1150px;
     margin: 0 auto;
 }
 
 body {
-    background-color: rgb(231, 205, 205);
+    background-image: url(../img/baggrund.png);
 }
 
 img {
     max-width: 100%;
+    margin-top: 80px;
 }
+
+/* p {
+    margin-top: 150px;
+    padding-right: 45px;
+} */
+
 
 .tema {
     background-color: rgb(236, 187, 187);
