@@ -10,3 +10,19 @@ footer {
 body {
     background-color: rgb(231, 205, 205);
 }
+
+img {
+    max-width: 100%;
+}
+
+.tema {
+    background-color: rgb(236, 187, 187);
+    color: red;
+    border-radius: 2vw;
+    padding: 4em;
+    text-decoration: none;
+    width: 170px;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 100%;
+}
