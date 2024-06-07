@@ -4,21 +4,54 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="noindex" />
-    <title>Document</title>
+    <title>Animation</title>
     <link rel="stylesheet" href="css/layout.css" />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style.css" />¨
+    <link rel="stylesheet" href="css/burger.css">
   </head>
   <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="index.html">Forside</a></li>
-          <li><a href="tema2.html">Grundlæggende web</a></li>
-          <li><a href="tema3.html">Grundlæggende UX/UI</a></li>
-          <li><a href="tema4.html">Animation</a></li>
-          <li><a href="tema5.html">Virksomhedssite</a></li>
+    <header class="header">
+      <nav class="navbar">
+        <!-- <a href="#" class="nav-logo">LOGO</a> -->
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Forside</a>
+          </li>
+          <li class="nav-item">
+            <a href="tema2.html" class="nav-link">Grundlæggende web</a>
+          </li>
+          <li class="nav-item">
+            <a href="tema3.html" class="nav-link">UX/UI</a>
+          </li>
+          <li class="nav-item">
+            <a href="tema4.html" class="nav-link">Animation</a>
+          </li>
+          <li class="nav-item">
+            <a href="tema5.html" class="nav-link">Grundlæggende indhold</a>
+          </li>
+          <li class="nav-item">
+            <a href="ommig.html" class="nav-link">Om mig</a>
+          </li>
         </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
       </nav>
     </header>
+    <main>
+      <h3>Animation</h3>
+      <h4>Tema 4</h4>
+      <section>
+        <div class="grid_1-1">
+          <div class="col2">
+            <h5>Animation spillet</h5>
+            <p>Det grundlæggende web var en del af studiestartsprøven. Prøven var med til at gøre at man kunne fortsætte på studiet</p>
+          </div>
+          <img src="img/tema4.webp" alt="tema4" />
+      </section>
+    </main>
   </body>
+  <script src="./js/javascript.js"></script>
 </html>
