@@ -9,6 +9,10 @@
       grid-template-columns: 1fr 1fr 1fr;
       gap: 2em;
     }
+
+    .pic2 {
+        width: 80%;
+    }
   }
   
   
@@ -53,7 +57,7 @@
       left: -150%;
       top: 5rem;
       flex-direction: column;
-      background-color: rgb(190, 46, 46);
+      background-color: rgb(255, 173, 80);
       width: 100%;
       border-radius: 10px;
       transition: 0.3s;
@@ -86,6 +90,16 @@
     .hamburger.active .bar:nth-child(3) {
       translate: 0 -8px;
       rotate: -45deg;
+    }
+
+    .pic {
+        width: 110%;
+        border-radius: 20px;
+    }
+
+    .pic2 {
+        width: 100%;
+        border-radius: 20px;
     }
   }
   

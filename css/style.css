@@ -26,7 +26,7 @@ h2 {
 
 h3 {
     text-align: center;
-    color: red;
+    color: black;
     font-family: superfunky;
     font-size: xx-large;
     padding-top: 5%;
@@ -34,10 +34,9 @@ h3 {
 
 h4 {
     text-align: center;
-    color: rgb(209, 52, 52);
+    color: black;
     font-size: x-large;
     font-family: superfunky;
-    /* padding-top: 1%; */
 }
 
 header ul {
@@ -60,10 +59,11 @@ header * {
 
 
 h5 {
-    margin-top: 110px;
+    margin-top: 40px;
     padding-right: 45px;
     text-align: center;
     font-size: large;
+    font-family: superfunky;
 }
 .grid_1-1-1-1-1 {
     display: grid;
@@ -76,6 +76,9 @@ h5 {
     grid-template-columns: auto;
 }
 /* forside */
+/* .forside-knap img:hover {
+   
+} */
 
 .container {
     max-width:100%;
@@ -158,7 +161,7 @@ h5 {
     }
 
     p {
-        margin-top: 110px;
+        margin-top: 50px;
         padding-right: 45px;
     }
 
@@ -169,7 +172,18 @@ h5 {
         font-size: larger;
     } */
 
-    
+    h3 {
+        margin-bottom: 70px;
+    }
+
+    .pic {
+        border-radius: 20px;
+    }
+
+    .pic2 {
+        border-radius: 20px;
+    }
+
 
     
 

@@ -8,15 +8,19 @@ footer {
 
 body,
 footer {
-    background-image: radial-gradient(circle, #fbb240, #fca732, #fd9b23, #fe8e13, #ff8100);
+    background-image: radial-gradient(circle, #ff7a00, #ff8801, #fe9508, #fea214, #fdae1f, #fcae20, #fbaf20, #faaf21, #f9a417, #f8990e, #f78d05, #f68100);
     margin: 50px;
     
 }
 
-.pic{
+p {
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* .pic{
     max-width: 80%;
    margin-top:10rem;
-}
+} */
 .img {
     max-width: 100%;
 }
@@ -24,6 +28,7 @@ footer {
     margin-top: 150px;
     padding-right: 45px;
 } */
+
 
 
 .tema {
