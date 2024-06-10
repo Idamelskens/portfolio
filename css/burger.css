@@ -110,6 +110,12 @@
         border-radius: 20px;
         /* filter: sepia(100%) hue-rotate(-10deg) saturate(300%); */
     }
+
+    .grid_1-1-1 {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1em;
+    }
   }
   
 
