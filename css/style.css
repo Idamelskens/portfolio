@@ -7,12 +7,8 @@
 h1 {
     text-align: center;
     color: rgb(0, 0, 0);
-    /* margin-bottom: 30px; */
-    /* padding-top: 10%; */
-    /* margin-left: 50px; */
     font-size: xx-large;
     font-family: superfunky;
-    
 }
 
 h2 {
@@ -57,10 +53,6 @@ header * {
     margin-left: 0%;
 }
 
-/* .tekst {
-    margin-top: -50px;
-} */
-
 h5 {
     margin-top: 30px;
     padding-right: 45px;
@@ -71,8 +63,6 @@ h5 {
 
 h6 {
     margin-top: 10px;
-    /* padding-right: 45px; */
-    /* text-align: center; */
     font-size: large;
     font-family: superfunky;
     margin-bottom: 0%;
@@ -99,10 +89,6 @@ h6 {
     display: block;
     grid-template-columns: auto;
 }
-/* forside */
-/* .forside-knap img:hover {
-   
-} */
 
 .container {
     max-width:100%;
@@ -119,24 +105,40 @@ h6 {
     margin-top: 5rem; 
 }
 
+.pic:hover {
+    filter: blur(1px);
+    border: 1px solid black;
+} 
 
+.pic {
+    border: 1px solid rgb(236, 151, 4);
+}
 
-/* li {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    line-height: 130%;
-    margin-top: 0%;
-    text-decoration: dotted; 
-} */
+.urllink {
+    color: black;
+}
 
 @media (max-width: 800px) {
     .forside-pic {
         margin-top: 2rem;
     }
 
+    .pic {
+        width: 100%;
+        border-radius: 20px;
+    }
 
+    .pic2 {
+        width: 100%;
+        border-radius: 20px;
+    }
+
+    .grid_1-1-1 {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1em;
+    }
 }
-
-
 
  @media (min-width: 799px) {
     header ul {
@@ -149,7 +151,6 @@ h6 {
         position: relative;
         gap: 1em;
     } 
-    /* forside */
 
 .container {
     position:relative;
@@ -205,37 +206,34 @@ h6 {
         padding-right: 45px;
     } 
 
-    /* h5 {
-        margin-top: 110px;
-        padding-right: 45px;
-        text-align: center;
-        font-size: larger;
-    } */
-
     h3 {
         margin-bottom: 70px;
     }
 
     .pic {
         border-radius: 20px;
-        /* filter: sepia(100%) hue-rotate(-20deg) saturate(300%); */
-        /* filter: blur(5px); */
     }
 
     .pic2 {
         border-radius: 20px;
-        /* filter: sepia(100%) hue-rotate(-30deg) saturate(300%); */
         margin-bottom: 3rem;
     }
-
     .grid_1-1-1 {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         gap: 1em;
         justify-content: space-between;
     }
-
-
-    
-
 } 
+@media (min-width: 600px) {
+    .grid_1-1-1 {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 2em;
+    }
+
+    .pic2 {
+        width: 80%;
+        margin-bottom: 3rem;
+    }
+  }

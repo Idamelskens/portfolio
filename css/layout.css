@@ -12,8 +12,7 @@ footer {
 
 body {
     background-image: radial-gradient(circle, #ff7a00, #ff8801, #fe9508, #fea214, #fdae1f, #fcae20, #fbaf20, #faaf21, #f9a417, #f8990e, #f78d05, #f68100);
-    margin: 50px;
-    
+    margin: 50px;  
 }
 
 footer {
@@ -28,19 +27,9 @@ margin-top: 0%;
 font-size: 16px;
 }
 
-/* .pic{
-    max-width: 80%;
-   margin-top:10rem;
-} */
 .img {
     max-width: 100%;
 }
-/* p {
-    margin-top: 150px;
-    padding-right: 45px;
-} */
-
-
 
 .tema {
     background-color: rgb(236, 187, 187);
@@ -53,7 +42,3 @@ font-size: 16px;
     margin: 10px;
     margin-top: 100%;
 }
-
- .pic:hover {
-    filter: blur(5px);
-} 
